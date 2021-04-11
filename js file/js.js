@@ -70,13 +70,11 @@ function increment(){
         index++
         imgShow.src=items[index]
         span[index].setAttribute("id","activey")
-    clearInterval(handleset)    
     }else{
         zeros()
         index=0
         imgShow.src=items[index]
         span[index].setAttribute("id","activey")
-        clearInterval(handleset)
     }
 }
 function decrement(){
@@ -85,13 +83,11 @@ function decrement(){
         index--
         imgShow.src=items[index]
         span[index].setAttribute("id","activey")
-        clearInterval(handleset)
     }else{
         zeros()
         index=items.length-1
         imgShow.src=items[index]
         span[index].setAttribute("id","activey");
-        clearInterval(handleset)
     }
 }
 // console.log(items.length)
@@ -109,20 +105,20 @@ function zeros(){
 var here=document.querySelector("#multitext")
 var cards=["Front-end Developer      ","Graphic Designer       ","Freelancer      "]
 var count=0
-var index=0
+var i=0
 var word=""
 
 function handley(){
     word=cards[count]
-    here.innerHTML+=word[index]
-    index++
-    if(index>=word.length){
-        index=0
+    here.innerHTML+=word[i]
+    i++
+    if(i>=word.length){
+        i=0
         count++
         here.innerHTML=""
     }
     if(count>=cards.length){
-        index=0
+        i=0
         count=0
     }
 }
