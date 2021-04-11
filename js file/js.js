@@ -12,7 +12,7 @@ function appearBody(){
     bady.style.display="contents";
     loa.style.display="none";
 }
-setTimeout(appearBody,200);
+setTimeout(appearBody,1000);
 
 /* End body*/
 
@@ -70,7 +70,8 @@ function increment(){
         index++
         imgShow.src=items[index]
         span[index].setAttribute("id","activey")
-    clearInterval(handleset)    }else{
+    clearInterval(handleset)    
+    }else{
         zeros()
         index=0
         imgShow.src=items[index]
