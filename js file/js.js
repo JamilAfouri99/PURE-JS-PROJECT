@@ -54,7 +54,7 @@ var imgShow=document.querySelector("img");
 var back=document.querySelector("#back" );
 var next=document.querySelector("#next");
 var span=document.querySelectorAll(".spany > span");
-var items=['../pics/cover.jpg','../pics/1.jpg','../pics/2.jpg','../pics/3.jpg']
+var items=['./pics/cover.jpg','./pics/1.jpg','./pics/2.jpg','./pics/3.jpg']
 var index=0
 
 
