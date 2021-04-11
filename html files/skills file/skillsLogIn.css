@@ -1,0 +1,146 @@
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+::selection{
+    color:rgb(224, 223, 223);
+    background-color: black;
+
+}
+/* Start container*/
+#container{
+    height:	731px;
+    background-image:url(./images/A.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+}
+/* End container*/
+
+/* Start back login*/
+#container #back{
+    height:400px;
+    width:330px;
+    background-image: linear-gradient(rgb(0, 63, 82),rgb(0, 111, 145), rgb(0, 195, 255));
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    position:relative;
+}
+/* End back login*/
+
+/* Start one*/
+#container #back #one h1{
+    margin: 0px;
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 49px;
+    font-family: -webkit-pictograph;
+    color: whitesmoke;
+    border-bottom: double;
+    border-radius: 26px;
+    border-width: 9px;
+    padding-bottom: 8px;                             
+}
+/* End one*/
+
+/* Start two*/
+#container #back #two{
+    position:absolute;
+    top: 151px;
+    left: 30px;
+}
+#container #back #two input{
+    display:block;
+    margin:10px;
+    width: 247px;
+    height: 38px;
+    background: none;
+    border: 1px solid lightblue;
+    font-size: 14px;
+    color:whitesmoke
+}
+#container #back #two span{
+    color: whitesmoke;
+    font-size: 18px;
+}
+#container #back #two button:first-of-type {
+background: none;
+width: 96px;
+height: 32px;
+position: absolute;
+top: 110%;
+left: 8%;
+border: 2px solid whitesmoke;   
+color:whitesmoke;
+font-weight:bold;
+font-size:16px;
+transition: all 0.2s ease-in-out;
+
+}
+#container #back #two button:last-of-type a{
+    text-decoration: none;
+    color:whitesmoke;
+    
+}
+#container #back #two button:last-of-type {
+    
+background: none;
+width: 96px;
+height: 32px;
+position: absolute;
+top: 110%;
+left: 55%;
+border: 2px solid whitesmoke;   
+font-weight:bold;
+font-size:16px;
+transition: all 0.2s ease-in-out;
+
+}
+#container #back #two button:hover{
+    background-color: whitesmoke;
+    color:rgb(0, 69, 116);
+    border:2px solid rgb(0, 69, 116);
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+}
+#container #back #two button:hover a{
+    color:rgb(0, 69, 116);
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+}
+
+#container #back #two #ii{
+    position:absolute;
+    top: 120px;
+    left: 270px;
+    width: 19px;
+    height: 19px;
+    
+}
+#container #back #two #ii i{
+    color: whitesmoke;
+    font-size: 16px;
+    position:absolute;
+    top:0px ;left:0px;
+}
+#container #back #two #ii i:hover{
+    cursor:pointer;
+    color:rgb(204, 204, 204)
+}
+#container #back #two #ii i:nth-of-type(2){
+    display:none;
+}
+/* End two*/
+
+

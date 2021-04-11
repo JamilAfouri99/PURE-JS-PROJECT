@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Registration.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="Submit">
+                <p id="text">Create account</p>
+                <div class="all name">
+                    <span class="user ">Username</span>
+                    <input onkeyup="userName()" class="in1" type="text" placeholder="Your name">
+                    <i class="fa fa-check-circle one" style="color:rgb(33, 99, 33)"></i>
+                    <i class="fa fa-times-circle two" style="color:#9f1d1d"></i>
+                    <span class="spanTwo">Vaild username</span>
+                </div>
+
+
+                <div class="all email">
+                    <span class="user ">Email</span>
+                    <input onkeyup="Emaily()" class="in2" type="email" placeholder="Your email">
+                    <i class="fa fa-check-circle onee" style="color:rgb(33, 99, 33)"></i>
+                    <i class="fa fa-times-circle twoo" style="color:#9f1d1d"></i>
+                    <span class="spanTwo">Vaild email</span>
+                    
+                </div>
+
+
+                <div class="all password">
+                    <span class="user ">Password</span>
+                    <input onkeyup="passsy()" type="password" class="in3" placeholder="Your password" maxlength="15">
+                    <i class="fa fa-check-circle oneee" style="color:rgb(33, 99, 33)"></i>
+                    <i class="fa fa-times-circle twooo" style="color:#9f1d1d"></i>
+                    <span class="spanTwo">Vaild password</span>
+                    
+                </div>
+                <div class="all password2">
+                    <span class="user ">Password verified</span>
+                    <input onkeyup="passsy2()" type="password" class="in4" placeholder="Your same password">
+                    <i class="fa fa-check-circle oneeee" style="color:rgb(33, 99, 33)"></i>
+                    <i class="fa fa-times-circle twoooo" style="color:#9f1d1d"></i>
+                    <span class="spanTwo">Not the same password</span>
+
+                </div>
+                <input  type="submit" value="Sign in">
+            </form>
+        </div>
+    <script src="Registration.js"></script>
+    </body>
+</html>
